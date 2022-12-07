@@ -5,7 +5,7 @@ public class PrimNum {
 
 	public static void main(String[] args) {
 		Scanner ob=new Scanner(System.in);
-		System.out.println("Enter Last Number To search for Prime Number ");
+		System.out.print("Enter Last Number To search for Prime Number ");
 		int n=ob.nextInt();
 		System.out.println("\nThe Prime Number are");
 		for(int i=1; i<=n; i++) {
@@ -22,7 +22,12 @@ public class PrimNum {
 		
 		}
 		
-
 	}
-
+		
 }
+		
+
+	
+	
+
+
