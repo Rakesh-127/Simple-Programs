@@ -4,9 +4,9 @@ public class PatternLeftTriangle {
 	public static void main(String[] args) {
 		for(int i=1;i<=5;i++) {				//Rows
 			for(int j=1;j<=i;j++) {			//Column
-				System.err.print("*");
+				System.out.print("*");
 			}
-			System.err.print("\n");
+			System.out.print("\n");
 		}
 
 	}
